@@ -6,8 +6,7 @@ read -p "Please insert a number: " ans
 
 while true; do
 
-echo "Pease insert an operation: "
-read opr
+read -p "Pease insert an operation: " opr
 
 case $opr in
 "+")
